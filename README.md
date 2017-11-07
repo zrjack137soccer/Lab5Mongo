@@ -30,5 +30,5 @@ Grading:
 The GET interface for your REST service returns all current comments | 25
 You can pass the POST interface for your REST service a new comment and it correctly inserts it. | 25
 Your front-end works as described above | 25
-Users can delete all comments. | 25
+Users can delete all comments. | 15
 Your code is correctly up to date on github, and your frontend page looks really good. This is subjective, so wow us.	 | 10
