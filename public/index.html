@@ -4,28 +4,32 @@
     <title>User Comments!</title>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="javascripts/comments.js"></script>
+    <link rel="stylesheet" href="stylesheets/style.css" </head>
 
-</head>
+    <body>
+        <div class="Title">
+            <h2>Commentator</h2>
+        </div>
+        <div class="Userinput">
+            <form id="commentForm" action="">
+                <label for="name">Name: </label> <input type="text" id="name" placeholder="Name"><br>
+                <label for="comment">Comment: </label> <input type="text" id="comment" placeholder="Comment"><br>
+            </form>
 
-<body>
-    <form id="commentForm" action="">
-        <label for="name">Name: </label> <input type="text" id="name" placeholder="Name"><br>
-        <label for="comment">Comment: </label> <input type="text" id="comment" placeholder="Comment"><br>
-    </form>
-
-    <form id="commentForm" action="">
-        <label for="name">Search for comments from an user: </label><input type="text" id="query" placeholder="Query"><br>
-    </form>
-    
-    <button id="postComment">Post Comment</button>
-    <button id="getComments">Get Comments</button>
-    <button id="deleteComments">Delete All</button>
-
-    <div id="json"></div>
-    <div id="done"></div>
-    <div id="comments"></div>
+            <form id="commentForm" action="">
+                <label for="name">Search for comments from an user: </label><input type="text" id="query" placeholder="Query"><br>
+            </form>
+            <div id="buttons">
+                <button id="postComment">Post Comment</button>
+                <button id="getComments">Get Comments</button>
+                <button id="deleteComments">Delete All</button>
+            </div>
+        </div>
+        <div id="json"></div>
+        <div id="done"></div>
+        <div id="comments"></div>
 
 
-</body>
+    </body>
 
 </html>
